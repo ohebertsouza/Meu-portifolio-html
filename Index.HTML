@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hebert Souza | Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <span class="logo">Hebert Souza</span>
+                <ul>
+                    <li><a href="#home" data-translate="nav.home">Home</a></li>
+                    <li><a href="#projects" data-translate="nav.projects">Projects</a></li>
+                    <li><a href="#contact" data-translate="nav.contact">Contact</a></li>
+                </ul>
+                <div class="nav-buttons">
+                    <button id="lang-toggle" aria-label="Toggle Language">EN</button>
+                    <button id="theme-toggle" aria-label="Toggle Theme">🌙</button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="home" class="introduction">
+            <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_1968_jpg%20Grande-hNmouVU9Wro1n3tzHFxpcec0o1Xhoe.jpeg" alt="Hebert Souza" class="avatar">
+            <h1>Hebert Souza</h1>
+            <h2 data-translate="intro.role">Full-stack Developer</h2>
+            <p data-translate="intro.description">Passionate about creating efficient, scalable, and user-friendly web applications. Specializing in HTML, Javascript, React, AI and cloud technologies.</p>
+        </section>
+
+        <section id="skills">
+            <h2 data-translate="skills.title">Skills</h2>
+            <div class="skills-container"></div>
+            <div id="skill-details" class="skill-details hidden">
+                <h3 id="selected-skill"></h3>
+                <div class="progress-bar">
+                    <div class="progress"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2 data-translate="projects.title">Projects</h2>
+            <div class="projects-grid"></div>
+        </section>
+
+        <section id="contact">
+            <h2 data-translate="contact.title">Contact</h2>
+            <p data-translate="contact.description">Feel free to reach out to me for any inquiries or collaboration opportunities.</p>
+            <div class="social-links">
+                <a href="https://github.com/ohebertsouza" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                </a>
+                <a href="https://linkedin.com/in/ohebertviana" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                </a>
+                <a href="mailto:hebertvvsouza@gmail.com" aria-label="Email">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                </a>
+            </div>
+            <form id="contact-form">
+                <input type="text" id="name" data-translate="contact.form.name" placeholder="Your Name" required>
+                <input type="email" id="email" data-translate="contact.form.email" placeholder="Your Email" required>
+                <textarea id="message" data-translate="contact.form.message" placeholder="Your Message" required></textarea>
+                <button type="submit" data-translate="contact.form.submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Hebert Souza. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
