@@ -47,9 +47,9 @@ Este é o meu portfólio pessoal, onde apresento minhas habilidades, projetos e 
 ## 📬 Contato
 - Sinta-se à vontade para entrar em contato comigo:
 - 
- - GitHub: @ohebertsouza
-- LinkedIn: Hebert Souza
-- E-mail: hebert@example.com
+- GitHub: @ohebertsouza
+- LinkedIn: @ohebertviana
+- E-mail: hebertvvsouza@gmail.com
 
 ---
 
